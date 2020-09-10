@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+	<meta charset="utf-8" />
+<head>
+<style type="text/css">
+* {
+  font-family: 微軟正黑體;
+  position: relative;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  display: relative;
+  background-color: #d1d1d1;
+  border-top: solid 30px #E49;
+  border-bottom: solid 30px #E49;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.namecard {
+  width: 350px;
+  height: 200px;
+  padding: 20px; 
+  display: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: #eee;
+  letter-spacing: 1px;
+  color: #555;
+  overflow: hidden;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  box-shadow: 0px 25px 15px -20px rgba(0, 0, 0, 0.2);
+  font-size: 28px;
+}
+.namecard span {
+  font-size: 16px;
+  font-weight: 600;
+}
+.namecard h5 {
+  font-size: 14px;
+  color: #E49;
+  margin-bottom: 3px;
+  margin-top: 15px;
+}
+.namecard p {
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+  right: 100px;
+}
+
+.circle1 {
+  left: 90px;
+  bottom: -60px;
+  background-color: #E49;
+}
+
+.circle2 {
+  width: 60px;
+  height: 60px;
+  right: -30px;
+  top: -30px;
+  border: solid 6px #E49;
+}
+
+.page_title {
+  display: fixed;
+  bottom: 250px;
+  text-align: center;
+  color: #444;
+  font-weight: 300;
+}
+
+.mark {
+  font-size: 400px;
+  position: absolute;
+  bottom: 100px;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.05);
+  animation: move 60s infinite;
+}
+
+@keyframes move{
+  0%{ transform: translateX(50px)}
+  50%{ transform: translateX(350px)}
+  100%{ transform: translateX(50px)}
+}
+
+
+</style>
+</head>
+<body>
+<div class="mark">玄 妙</div>
+<div class="namecard">
+  <div class="h2">卓朝指<span>(ZHUO,CHAO ZHI)</span></div>
+  <h5>✿ 玄妙養生美容 | ✆ 0905666539</h5>
+  <h5>➤ 台中市甲后路一段355巷43號</h5>
+  <hr/>
+  <p>30年美容美體經驗，自行在后里創業開店，另外也有收驚的部分，歡迎來電洽詢提前預約。</p>
+  <div class="circle circle1"></div>
+  <div class="circle circle2"></div>
+</div>
+<h3 class="page_title">
+	
+</h3>
+
+</body>
+</html>
